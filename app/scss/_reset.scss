@@ -8,8 +8,8 @@ html {
     box-sizing: inherit;
 }
 
-ul[],
-ol[] {
+ul,
+ol {
     padding: 0;
 }
 
@@ -21,8 +21,8 @@ h4,
 h5,
 h6,
 p,
-ul[class],
-ol[class],
+ul,
+ol,
 li,
 figure,
 figcaption,
@@ -51,5 +51,5 @@ select {
 
 a {
     text-decoration: none;
-    color: inherit;
+    // color: inherit;
 }
