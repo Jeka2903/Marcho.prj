@@ -21,19 +21,19 @@
     }
     &__list-link{
         color: title;
-        padding-bottom: 1px;
+        padding:0 2px 1px;
         transition: all .3s;
-        @extend %quicksand-400;
+        @extend %Roboto-400;
         &:hover{
             color: $accent;
             border-bottom: 1px solid $accent;
-            @extend %quicksand-500;
+            @extend %Roboto-700;
         }
     }
     &__list-link--active{
         color: $accent;
         border-bottom: 1px solid $accent;
-        @extend %quicksand-500;
+        @extend %Roboto-700;
     }
 }
 
@@ -96,6 +96,7 @@
     &__email,
     &__phone{
         margin-bottom: 14px;
+        line-height: 36px;
         display: block;
     }
     &__social-list{
@@ -160,6 +161,9 @@
     justify-content: space-between;
     align-items: center;
     font-size: 12px;
+    &__accept{
+        display: flex;
+    }
     &__accept-img{
         margin-left: 25px;
         vertical-align: middle;
